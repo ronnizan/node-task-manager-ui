@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+}
+
+div.main {
+    display: flex;
+    flex-direction: column;
+    /* background: gray; */
+    box-shadow: 4px 9px 42px 5px rgba(0, 0, 0, 0.8);
+    padding: 4rem 2rem;
+}
+
+div form {
+    display: flex;
+    flex-direction: column;
+}
+
+#password {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.6rem 2rem;
+    background: rgba(211, 211, 211, 0.61);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.466)
+}
+
+.register {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    border: none;
+    padding: 4rem 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.register label {
+    /* width: 50%; */
+    margin-top: 0.5rem;
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 0.6rem 2rem;
+}
+
+.register button {
+    display: inline-block;
+    /* width: 50%; */
+    vertical-align: baseline;
+}
